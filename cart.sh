@@ -7,9 +7,9 @@ dnf install nodejs -y
 
 useradd roboshop
 
-mkdir /app 
+mkdir /app
 
-curl  -o /tmp/cart.zip https://roboshop-artifacts.s3.amazonaws.com/cart-v3.zip
+curl -o /tmp/cart.zip https://roboshop-artifacts.s3.amazonaws.com/cart-v3.zip
 cd /app 
 unzip /tmp/cart.zip
 
