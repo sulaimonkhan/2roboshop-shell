@@ -17,6 +17,8 @@ unzip /tmp/catalogue.zip
 cd /app
 npm install
 
+dnf install mongodb-mongosh -y
+
 mongosh --host mongodb.sulaimondevopsb72.online </app/db/master-data.js
 
 systemctl daemon-reload
